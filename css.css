@@ -1,0 +1,117 @@
+
+.btn:hover {
+    background: #444;
+}
+.bg-dark {
+    background: #333;
+    color:#fff;
+}
+.error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 50px 0 0 10px;
+    font-family: Anta;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    
+}
+.my-form {
+    padding: 2rem;
+    background: #968484;
+    background-image: url(img/pexels-og-productionz-15465000.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+}
+#my-form input[type='text']{
+    width: 100%;
+padding: 8px;
+margin-bottom:10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+body {
+    font-family: Anta;
+    line-height:1.6;
+    background: #442a2a;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    padding: 5px;
+    background:#f4f4f4;
+    margin: 5px;
+}
+header {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    overflow:auto;
+    padding:3rem 2rem;
+}
+
+h1{
+   color: white;
+   font-weight: 1000;
+   margin: -20px 0 200px 0;
+}
+
+.btn__atgal{
+ 
+    max-height: 60px;
+    max-width: 120px;
+    min-height: 60px;
+    min-width: 120px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: Anta;
+    background-color: #442a2a;
+    font-size: 20px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: 900;
+
+}
+.btn__atgal:hover{
+    background-color: white;
+    color: #442a2a;;
+}
+.btn__balta{
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    
+}
+
+.button__icon{
+    font-size: 1.25rem;
+}
